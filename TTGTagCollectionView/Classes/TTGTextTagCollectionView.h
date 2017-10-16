@@ -38,6 +38,10 @@
 
 // Tag extra space in width and height, will expand each tag's size
 @property (assign, nonatomic) CGSize tagExtraSpace;
+
+/// ADDED: max width for the label
+@property (assign, nonatomic) CGFloat maxWidth;
+
 @end
 
 /// TTGTextTagCollectionView
